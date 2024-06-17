@@ -1,3 +1,5 @@
+# Init
+
 - Dependencies
   - Angular CLI
   - Angular Material
@@ -46,3 +48,6 @@ Add the following to `src/styles.css`
 @tailwind components;
 @tailwind utilities;
 ```
+
+### Stuff
+Well now you need to import "NgIf" to use it...

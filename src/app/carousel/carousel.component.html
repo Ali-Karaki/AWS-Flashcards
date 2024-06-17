@@ -1,0 +1,23 @@
+<div class="flex flex-col items-center justify-center h-screen">
+  <div class="w-full max-w-lg">
+    <div (click)="toggleAnswer()" class="cursor-pointer">
+      <p
+        *ngIf="!showAnswer"
+        class="min-w-72 min-h-72 flex justify-center items-center text-center p-10 text-4xl font-light bg-blue-100 rounded-3xl"
+      >
+        {{ questions[currentIndex].question }}
+      </p>
+      <p
+        *ngIf="showAnswer"
+        class="min-w-72 min-h-72 flex justify-center items-center text-center p-10 text-4xl font-light bg-red-100 rounded-3xl"
+      >
+        {{ questions[currentIndex].answer }}
+      </p>
+    </div>
+  </div>
+
+  <div class="flex justify-between w-full max-w-lg mt-4">
+    <button mat-button (click)="prevQuestion()" class="text-4xl"><</button>
+    <button mat-button (click)="nextQuestion()" class="text-4xl">></button>
+  </div>
+</div>
