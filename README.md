@@ -51,3 +51,19 @@ Add the following to `src/styles.css`
 
 ### Stuff
 Well now you need to import "NgIf" to use it...
+
+
+
+
+
+
+Todo:
+- mention if it's a question or an answer
+- smaller font size
+- make the prev/next btns fixed and not depend on the height of the content
+- make it a DVA section so we can have other sections
+
+
+Nice to have:
+- auto play?
+- show the number of the current question
